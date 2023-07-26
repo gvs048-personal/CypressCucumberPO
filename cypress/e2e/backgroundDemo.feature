@@ -9,6 +9,7 @@ When enter valid "mercury" and "mercury"
 And hit enter
 Then user logged in successfully
 
+
 Scenario: passing values as datatable 
 When login with following details
 | username | password |
