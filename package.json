@@ -1,0 +1,31 @@
+{
+  "name": "cypresscucumber",
+  "version": "2.0.0",
+  "description": "cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "orangehrm": "npx cypress run --spec 'cypress/e2e/features/**/*.feature'",
+    "test1": "npx cypress run --spec 'cypress/e2e/features/*.feature'"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Subbarao",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/newtours"
+  }
+}

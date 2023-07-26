@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Page Verification on OrangeHRM website",
+    "line": 1,
+    "id": "login-page-verification-on-orangehrm-website",
+    "tags": [],
+    "uri": "loginOrangehrmTest.feature",
+    "elements": [
+      {
+        "id": "login-page-verification-on-orangehrm-website;check-valid-login-page-display-with-login-fields",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "check valid login page display with login fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 13620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see title \"OrangeHRM\"",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see \"Login\" text displayed",
+            "result": {
+              "status": "passed",
+              "duration": 848000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see \"Forgot your password?\" text displayed",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

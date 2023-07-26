@@ -1,0 +1,139 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verying the tags",
+    "line": 1,
+    "id": "verying-the-tags",
+    "tags": [],
+    "uri": "tagsDemo.feature",
+    "elements": [
+      {
+        "id": "verying-the-tags;passing-values-as-prameter",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "passing values as prameter",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 5478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "enter valid \"mercury\" and \"mercury\"",
+            "result": {
+              "status": "passed",
+              "duration": 997000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 3955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verying-the-tags;passing-values-as-datatable",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "passing values as datatable",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 2465000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mercury",
+                      "mercury"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 15,
+            "name": "login with following details",
+            "result": {
+              "status": "passed",
+              "duration": 732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 2575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

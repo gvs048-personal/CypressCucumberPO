@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "OrangeHRM visual test",
+    "line": 1,
+    "id": "orangehrm-visual-test",
+    "tags": [],
+    "uri": "loginVisualTest.feature",
+    "elements": [
+      {
+        "id": "orangehrm-visual-test;check-orangehrm-visual-test",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "check OrangeHRM visual test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user name should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

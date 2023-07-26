@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Scenario Outline Demo",
+    "line": 1,
+    "id": "scenario-outline-demo",
+    "tags": [],
+    "uri": "scenarioOutline.feature",
+    "elements": [
+      {
+        "id": "scenario-outline-demo;passing-values-from-examples-section",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "passing values from Examples section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 5126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "enter username as 'mercury' and password as 'mercury'",
+            "result": {
+              "status": "passed",
+              "duration": 1082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 3131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "scenario-outline-demo;passing-values-from-examples-section",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "passing values from Examples section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 2624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "enter username as 'mercury2' and password as 'abcdef'",
+            "result": {
+              "status": "passed",
+              "duration": 839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 2262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Welcome: Mercury Tours' to equal 'Login: Mercury Tours'\n    + expected - actual\n\n    -'Welcome: Mercury Tours'\n    +'Login: Mercury Tours'\n\n    at Context.eval (cypress/e2e/scenarioOutline/scenarioOutline.js:15:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

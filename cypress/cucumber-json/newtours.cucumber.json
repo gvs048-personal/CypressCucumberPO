@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "newtours verification",
+    "line": 1,
+    "id": "newtours-verification",
+    "tags": [],
+    "uri": "newtours.feature",
+    "elements": [
+      {
+        "id": "newtours-verification;home-page-validation",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Home page validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 6651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "enter valid username and password",
+            "result": {
+              "status": "passed",
+              "duration": 1073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 4865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Home Page perrform operationslike edit and delete on OrangeHRM website",
+    "line": 1,
+    "id": "home-page-perrform-operationslike-edit-and-delete-on-orangehrm-website",
+    "tags": [],
+    "uri": "homeOrangehrmOperations.feature",
+    "elements": [
+      {
+        "id": "home-page-perrform-operationslike-edit-and-delete-on-orangehrm-website;check-add-employee-in-pim-tab",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Check Add employee in PIM tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on PIM tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1766000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the Add button",
+            "result": {
+              "status": "passed",
+              "duration": 1834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Add employee panel should be loaded and should contains text \"Add Employee\"",
+            "result": {
+              "status": "passed",
+              "duration": 581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I enter the details",
+            "result": {
+              "status": "passed",
+              "duration": 1578000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on Save button",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Entered details should be saved successfully",
+            "result": {
+              "status": "passed",
+              "duration": 578000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-perrform-operationslike-edit-and-delete-on-orangehrm-website;verify-required-field-validation-of-add-employee-in-pim-tab",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify required field validation of Add employee in PIM tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on PIM tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the Add button",
+            "result": {
+              "status": "passed",
+              "duration": 1833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Add employee panel should be loaded and should contains text \"Add Employee\"",
+            "result": {
+              "status": "passed",
+              "duration": 593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on Save button",
+            "result": {
+              "status": "passed",
+              "duration": 991000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Should able to see the Required field validation for First name and Last name",
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

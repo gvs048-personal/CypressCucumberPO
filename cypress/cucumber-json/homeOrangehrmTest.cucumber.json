@@ -1,0 +1,412 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Home Page Test on OrangeHRM website",
+    "line": 1,
+    "id": "home-page-test-on-orangehrm-website",
+    "tags": [],
+    "uri": "homeOrangehrmTest.feature",
+    "elements": [
+      {
+        "id": "home-page-test-on-orangehrm-website;check-valid-home-page-tabs-display",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Check valid home page tabs display",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user name should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Admin tab should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-test-on-orangehrm-website;click-on-admin-tab-of-home-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Click on Admin Tab of home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on admin tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the admin sub tab section displayed",
+            "result": {
+              "status": "passed",
+              "duration": 525000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-test-on-orangehrm-website;double-click-on-admin-tab-of-home-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Double Click on Admin Tab of home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 4983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I double click on admin tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin sub tab section displayed",
+            "result": {
+              "status": "passed",
+              "duration": 556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Verify the displayed users count",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Not enough elements found. Found '50', expected '51'.\n    + expected - actual\n\n    -50\n    +51\n\n    at Context.eval (cypress/e2e/pages/HomeOrangehrm_PageObjects.js:216:28)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-test-on-orangehrm-website;right-click-on-admin-tab-of-home-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Right Click on Admin Tab of home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I right click on admin tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the Admin tab should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-test-on-orangehrm-website;check-all-employees-on-pim-tab",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Check all employees on PIM Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5857000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click on PIM tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I select all employees in the employees list",
+            "result": {
+              "status": "passed",
+              "duration": 2140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "all employees should be selected successfully",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-test-on-orangehrm-website;uncheck-all-employees-on-pim-tab",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Uncheck all employees on PIM Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 6080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I click on PIM tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I select all employees in the employees list",
+            "result": {
+              "status": "passed",
+              "duration": 2088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I uncheck all employees in the employees list",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "no employees should be selected successfully",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-test-on-orangehrm-website;select-sales-manager-in-employees-list-on-pim-tab",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Select Sales Manager in employees list on PIM Tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "I open OrangeHRM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 870000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I SignIn as user",
+            "result": {
+              "status": "passed",
+              "duration": 5963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I click on PIM tab of home page",
+            "result": {
+              "status": "passed",
+              "duration": 1306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I select admin in the employees list",
+            "result": {
+              "status": "passed",
+              "duration": 1874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "admin should be selected successfully",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

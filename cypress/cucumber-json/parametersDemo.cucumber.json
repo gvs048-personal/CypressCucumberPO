@@ -1,0 +1,129 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify passing params from feature file",
+    "line": 1,
+    "id": "verify-passing-params-from-feature-file",
+    "tags": [],
+    "uri": "parametersDemo.feature",
+    "elements": [
+      {
+        "id": "verify-passing-params-from-feature-file;passing-values-as-prameter",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "passing values as prameter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 5296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "enter valid \"mercury\" and \"mercury\"",
+            "result": {
+              "status": "passed",
+              "duration": 857000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 5817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-passing-params-from-feature-file;passing-values-as-datatable",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "passing values as datatable",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "user is on newtours website",
+            "result": {
+              "status": "passed",
+              "duration": 2570000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mercury",
+                      "mercury"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 12,
+            "name": "login with following details",
+            "result": {
+              "status": "passed",
+              "duration": 790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 3891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
